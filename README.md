@@ -24,6 +24,7 @@ import JotformEmbed from 'react-jotform-embed';
 
 ## Props
 - src : The url of your jotform, as given in their publish section. 
+- lazy : A boolean to perform lazy loading on the iframe element.  Default is eager.
 - scrolling : A boolean to allow or disallow scrolling. Scrolling is turned off by default
 
 ## Notes
